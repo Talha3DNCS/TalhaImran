@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Talha 3D NCS Ringtone's</title>
+	<link href="Talha 3D NCS Ringtone's.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="logo.png">
+	<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>	
+<body>
+
+<div class="loader_bg">
+    <div class="loader"></div>
+</div>
+
+<div class="banner">
+	<!-- menu start -->
+<div class="logo">
+	<img src="talha 3d ncs.png">
+</div>
+    <div class="action">
+      <div class="profile" onclick="menuToggle();">
+  <div class="menu-btn">
+    <div class="menu-btn__burger"></div>
+  </div>
+      </div>
+      <div class="menu">
+        <h3>Menu Box</h3>
+        <ul>
+          <li><img src="setting.png"><a href="#">Home</a></li>
+          <li><img src="setting.png"><a href="#about">About</a></li>
+          <li><img src="setting.png"><a href="#work">Work</a></li>
+          <li><img src="setting.png"><a href="#contact">Contact Us</a></li>
+          <li><img src="setting.png"><a href="Other Projects.html">Other Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- menu end -->
+
+		<div class="content">
+			<h1>Chose Your Own Ringtone's</h1>
+			<p>Welcome.Here you find Bestest collection of all type of Ringtone.So if you want to get more and more ringtone on daily basis then go and subscribe now..</p>
+
+			<div class="buttons">
+				<a href="#about"><button type="button" class="buttontwo"><span></span>About Me</button></a>
+				<a href="https://www.youtube.com/channel/UCGWzGHuWaVsBmiLARpSpHeQ/videos"><button type="button" class="buttontwo"><span></span>Subscribe</button></a>
+			</div>
+			
+		</div>
+	</div>	
+	<section class="about-section" id="about">
+		<div class="inner-container">
+		<h1>About Me</h1>
+		<p class="text">Welcome To The Talha 3D NCS Ringtone's. Here You Find The Bestest Collection Of All Type Of Ringtones. Here, My Website Include many Videos Collections. Watch And Enjoy All Videos. I Love  Music And BGM Songs. So, I Am Sharing My Experience With Yours So If You Want To Get More and More Ringtones On Daily Basis Then Go & Subsribe My Youtube Channel Now..</p>
+		
+	</div>
+	</section>
+	<section class="work" id="work">
+	<h1>Latest Work</h1>
+       <div>
+		<iframe width="500" height="280" src="https://www.youtube.com/embed/sJx07XhlcVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+		<a href="#"><button type="button"><span></span>Download</button></a>
+	</div>
+	<div>
+		<iframe width="500" height="280" src="https://www.youtube.com/embed/KLh3BbVI0Ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+		<a href="#"><button type="button"><span></span>Download</button></a>
+	</div><br>
+	<div class="a">
+    <a href="Talha 3D NCS Ringtone's Watch more.html"><button type="button" class="but"><span></span>Watch More</button></a>
+     </div>
+	</section>
+
+	<section class="contact" id="contact">
+
+	    <div class="hero">
+	    		<h1>Contact Me</h1>
+	    	<form action="mail.php" method="post">
+	    		<div class="row">
+	    		<div class="input-group">
+	    			<input type="text" id="name" required="">
+	    		    <label for="name"><i class="fas fa-user"></i>&nbsp Name &nbsp: &nbsp Talha Imran</label>
+	    		</div>
+	    		<div class="input-group">
+	    			<input type="text" id="number" required>
+	    		    <label for="number"><i class="fas fa-phone-square-alt"></i>&nbsp Phone no &nbsp: &nbsp 03234533413</label>
+	    		</div>
+	    		</div>
+
+	    		<div class="input-group">
+	    			<input type="text" id="email" required>
+	    		    <label for="email"><i class="fas fa-envelope"></i>&nbsp Email Id &nbsp: &nbsp talha19teen@gmail.com</label>
+	    		</div>
+	    		<div class="input-group">
+	    			<input type="" id="none" required>
+	    		    <label for="message"><i class="fas fa-comments"></i>&nbsp Message &nbsp: &nbsp Contact Me on given E-mail or Phone number</label>
+	    		</div>
+	    	</form>
+	    </div>
+	</section>
+	<footer class="footer">
+		<h1>Copyright © 2021 Talha 3D NCS Ringtone's</h1>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+     <script type="text/javascript">
+    function menuToggle(){
+      const toggleMenu = document.querySelector('.menu');
+      toggleMenu.classList.toggle('active')
+    }
+  </script>
+  <script type="text/javascript">
+  	const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+  if(!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+});
+  </script>
+
+</body>
+</html>
